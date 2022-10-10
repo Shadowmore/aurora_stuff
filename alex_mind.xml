@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<!--info>
+	<info>
 		<update version="0.1">
-			<file name="alex_mind.xml" url="www.google.de" />
+			<file name="alex_mind.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind.xml" />
 		</update>
-	</info-->
+	</info>
 	
 		<element name="Variant Sailor: Living ship" type="Background Variant" source="Alex Mind" id="ID_ALEX_MIND_BACKGROUND_VARIANT_SAILOR_LIVING_SHIP">
 		<supports>Background Variant, Living ship</supports>
