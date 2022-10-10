@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Tiefling (Dagon)</name>
+		<description>Tiefling by Dagon</description>
+		<author url="https://github.com/Shadowmore">Alex Mind</author>
+		<update version="0.1">
+			<file name="tiefling_dagon.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/tiefling_dagon.xml" />
+		</update>
+	</info>
+</elements>
