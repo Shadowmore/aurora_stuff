@@ -3,9 +3,9 @@
 	<info>
 		<name>Alex Mind</name>
 		<description>The content from Alex mind.</description>
-		<author >Alex</author>
+		<author url="https://github.com/Shadowmore">Alex</author>
 		<update version="0.1">
-			<file name="alex_mind.index" />
+			<file name="alex_mind.index" url="https://github.com/Shadowmore/aurora_stuff/blob/main/alex_mind.index"/>
 		</update>
 	</info>
 	<files>
