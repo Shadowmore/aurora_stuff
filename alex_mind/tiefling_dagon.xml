@@ -2,10 +2,91 @@
 <elements>
 	<info>
 		<name>Tiefling (Dagon)</name>
-		<description>Tiefling by Dagon</description>
+		<description>The Tiefling that has been touched by the Lord of the Depth</description>
 		<author url="https://github.com/Shadowmore">Alex Mind</author>
 		<update version="0.1">
 			<file name="tiefling_dagon.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/tiefling_dagon.xml" />
 		</update>
 	</info>
+	
+	<!-- Baalzebub -->
+	<element name="Tiefling (Baalzebub)" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_TIEFLING_BAALZEBUB">
+		<supports>Tiefling</supports>
+		<description>
+			<p>The crumbling realm of Maladomini is ruled by Baalzebub, who excels at corrupting those whose minor sins can be transformed into acts of damntaion. Tielflings linked this this archdevil can corrupt others both physically and psychically.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2, and your Intelligence score increases by 1.</p>
+			<p class="indent"><b><i>Legacy of Maladomini. </i></b>You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the ray of sickness spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the crown of madness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet alt="Tiefling (Baalzebub)" display="false">
+			<description>Descended of Baalzebub</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+			<stat name="charisma" value="2"/>
+			<stat name="intelligence" value="1"/>
+			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_BAALZEBUB_LEGACY_OF_MALADOMINI" />
+		</rules>
+	</element>
+	
+
+	<element name="Tiefling (Dagon)" type="Sub Race" source="Alex Mind" id="ID_ALEX_MIND_SUBRACE_TIEFLING_DAGON">
+		<supports>Tiefling</supports>
+		<description>
+			<p>Your Tiefling has been touched by the Lord of the Depth - Dagon.</p>
+			<p class="indent"><b><i>Appearance. </i></b>Your tiefling does not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, he/she looks more like a fish/merfolk/water elf.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Intelligence score increases by 1, and your Dexterity score increases by 2.</p>
+			<p class="indent"><b><i>Amphibious. </i></b>You can breath air and water and swim under water.</p>
+			<p class="indent"><b><i>Speed. </i></b>Your base walking and swimming speed is 30 feet.</p>
+			<p class="indent"><b><i>Cold blooded. </i></b>You have restistance to cold damage.</p>
+			<p class="indent"><b><i>Silent dripping. </i></b>You have advantage in water and no disadvantage while walking through heavy terrain caused by water.</p>
+		</description>
+				<sheet alt="Tiefling (Dagon)" display="false">
+			<description>Descended of Dagon</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+			<stat name="intelligence" value="1"/>
+			<stat name="dexterity" value="2"/>
+			<select type="Racial Trait" name="Feral Trait" supports="Feral Tiefling, Feral Trait" />
+		</rules>
+	</element>
+	<element name="Amphibious" type="Racial Trait" source="Alex Mind" id="ID_ALEX_MIND_RACIAL_TRAIT_TIEFLING_DAGON_AMPHIBIOUS">
+		<supports>Tiefling (Dagon), Dagon Trait</supports>
+		<description>
+			<p>You can breath air and water.</p>
+		</description>
+		<sheet>
+			<description>You can breath air and water.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:swim" value="speed" bonus="base" equipped="![armor:heavy]"/>
+		</rules>
+	</element>
+	<element name="Cold blooded" type="Racial Trait" source="Alex Mind" id="ID_ALEX_MIND_RACIAL_TRAIT_TIEFLING_DAGON_COLD_BLOODED">
+		<supports>Tiefling (Dagon), Dagon Trait</supports>
+		<description>
+			<p>You have restistance to cold damage.</p>
+		</description>
+		<sheet>
+			<description>You have restistance to cold damage.</description>
+		</sheet>
+		<rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+	<element name="Silent Dripping" type="Racial Trait" source="Alex Mind" id="ID_ALEX_MIND_RACIAL_TRAIT_TIEFLING_DAGON_SILENT_DRIPPING">
+		<supports>Tiefling (Dagon), Dagon Trait</supports>
+		<description>
+			<p>You have advantage in water and no disadvantage while walking through heavy terrain caused by water.</p>
+		</description>
+		<sheet>
+			<description>You have advantage in water and no disadvantage while walking through heavy terrain caused by water.</description>
+		</sheet>
+		<rules>
+			<!--grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" level="1" /-->
+			<!--stat name="innate speed:swim" value="30" bonus="base" equipped="![armor:heavy]"/-->
+		</rules>
+	</element>
+
+
 </elements>
