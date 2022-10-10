@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Alex Mind</name>
+		<description>The content from Alex mind.</description>
+		<author >Alex</author>
+		<update version="0.1">
+			<file name="alex_mind.index" />
+		</update>
+	</info>
+	<files>
+		<file name="alex_mind.xml" />
+	</files>
+</index>
