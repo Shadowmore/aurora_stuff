@@ -9,6 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="alex_mind.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/alex_mind.xml"/>
+		<file name="living_ship.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/living_ship.xml"/>
+		<file name="tiefling_dagon.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/tiefling_dagon.xml"/>
 	</files>
 </index>
