@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="alex_mind.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind.xml"/>
+		<file name="alex_mind.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/alex_mind.xml"/>
 	</files>
 </index>
