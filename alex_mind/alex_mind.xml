@@ -1,1 +1,35 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="alex_mind.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/alex_mind.xml" />
+		</update>
+	</info>
+	
+		<element name="Variant Sailor: Living ship" type="Background Variant" source="Alex Mind" id="ID_ALEX_MIND_BACKGROUND_VARIANT_SAILOR_LIVING_SHIP">
+		<supports>Background Variant, Living ship</supports>
+		<description>
+			<p>You are a besouled ship that has got a humanoid or similar body that now walks among the people of the world.</p>
+			<p class="indent">Because nobody knows that you once were a ship, you cannot use the features 'Ship’s Passage' or 'Bad Reputation' you have to go with 'Ships thinkalike'.</p>
+		</description>
+		<sheet alt="Living ship" />
+	</element>
+	
+	<element name="Variant Feature: Ships thinkalike" type="Background Feature" source="Alex Mind" id="ID_ALEX_MIND_BACKGROUND_FEATURE_SHIPS_THINKALIKE">
+		<supports>Background Feature, Ships thinkalike</supports>
+		<description>
+			<p>If your character has a sailor background, with the variant 'Living ship' you must select Ihis background feature instead of Ship’s Passage.</p>
+			<p class="indent">You gain the ability to comprehend and verbally communicate with ensouled Ships. They can give you information about nearby locations and Monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a ship to perform a small favor for you, at the DM's discretion.
+A ship might be ensouled either based on history, loving crew or other reasons, your DM might decide on.
+You cannot force the ship to take actions against it's will or those of it's crew.
+</p>
+		</description>
+		<sheet alt="Ships thinkalike">
+			<description>You gain the ability to comprehend and verbally communicate with ensouled Ships. They can give you information about nearby locations and Monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a ship to perform a small favor for you, at the DM's discretion.
+A ship might be ensouled either based on history, loving crew or other reasons, your DM might decide on.
+You cannot force the ship to take actions against it's will or those of it's crew.
+</description>
+		</sheet>
+	</element>
+	
+</elements>
