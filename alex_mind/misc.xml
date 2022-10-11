@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Misc</name>
+		<description>Misc stuff from Alex mind.</description>
+		<author url="https://github.com/Shadowmore">Alex Mind</author>
+		<update version="0.1">
+			<file name="misc.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/misc.xml" />
+		</update>
+	</info>
+
+	<element name="Accordion" type="Item" source="Alex Mind" id="ID_ALEX_MIND_INSTRUMENT_ACCORDION">
+		<supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>An accordion, what else is there to say.</p>
+		</description>
+		<setters>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="6">6 lbs.</set>
+			<set name="slot">twohand</set>
+			<set name="proficiency">ID_ALEX_MIND_PROFICIENCY_TOOL_PROFICIENCY_ACCORDIONS</set>
+		</setters>
+	</element>
+
+	<element name="Tool Proficiency (Accordion)" type="Proficiency" source="Alex Mind" id="ID_ALEX_MIND_PROFICIENCY_TOOL_PROFICIENCY_ACCORDIONS">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>An accordion, what else is there to say.</p>
+		</description>
+	</element>
+	
+</elements>
