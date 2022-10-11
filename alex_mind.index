@@ -11,5 +11,6 @@
 	<files>
 		<file name="living_ship.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/living_ship.xml"/>
 		<file name="tiefling_dagon.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/tiefling_dagon.xml"/>
+		<file name="misc.xml" url="https://raw.githubusercontent.com/Shadowmore/aurora_stuff/main/alex_mind/misc.xml" />
 	</files>
 </index>
