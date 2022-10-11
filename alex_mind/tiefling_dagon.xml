@@ -16,7 +16,7 @@
 			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Intelligence score increases by 1, and your Dexterity score increases by 2.</p>
 			<p class="indent"><b><i>Child of the sea. </i></b>You can breath air and water and swim under water.</p>
 			<p class="indent"><b><i>Cold blooded. </i></b>You have restistance to cold damage.</p>
-			<p class="indent"><b><i>Silent dripping. </i></b>You have advantage in water and no disadvantage while walking through heavy terrain caused by water.</p>
+			<p class="indent"><b><i>Silent dripping. </i></b>You have advantage in water while sneaking (Stealth). Also you have no disadvantage while walking through heavy terrain caused by water.</p>
 		</description>
 		<sheet alt="Tiefling (Dagon)" display="false">
 			<description>Descended of Dagon</description>
@@ -57,7 +57,7 @@
 	<element name="Silent Dripping" type="Racial Trait" source="Alex Mind" id="ID_ALEX_MIND_RACIAL_TRAIT_TIEFLING_DAGON_SILENT_DRIPPING">
 		<supports>Tiefling (Dagon), Dagon Trait</supports>
 		<description>
-			<p>You have advantage in water and no disadvantage while walking through heavy terrain caused by water.</p>
+			<p>You have advantage in water while sneaking (Stealth). Also you have no disadvantage while walking through heavy terrain caused by water.</p>
 		</description>
 		<sheet>
 			<description>You have advantage in water and no disadvantage while walking through heavy terrain caused by water.</description>
